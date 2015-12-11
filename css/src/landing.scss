@@ -1,9 +1,6 @@
-body {
-  font-family: 'Sintony', sans-serif; }
-
 #landing {
-  background-color: #A18BCC;
-  color: #FFF;
+  background-color: $primary-color;
+  color: $light-font-color;
   text-align: center;
   text-align: center;
   padding-top: 3em; }
@@ -13,7 +10,7 @@ body {
     margin-left: 1.5em; }
     #landing nav a.active {
       font-weight: bold;
-      border-bottom: 2px solid #FFF;
+      border-bottom: 2px solid $light-font-color;
       padding-bottom: 0.5em; }
   #landing h1 {
     font-size: 4em;
@@ -23,12 +20,8 @@ body {
     margin-top: 2em; }
   #landing a.action {
     background-color: #4BD9DD;
-    color: #FFF;
-    border-radius: 2px;
     width: 12em;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1em; }
+    }
   #landing .image-container {
     position: relative; }
     #landing .image-container img {
@@ -55,5 +48,3 @@ body {
       font-size: 2em;
       background-color: rgba(0, 0, 0, 0.5);
       padding: 0.3em; }
-
-/*# sourceMappingURL=styles.css.map */
