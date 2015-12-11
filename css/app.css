@@ -3,6 +3,7 @@ body {
   color: #C0C4C7; }
 
 .btn-solid {
+  background-color: #A18BCC;
   color: #FFF;
   border-radius: 2px;
   text-transform: uppercase;
@@ -82,6 +83,13 @@ body {
   font-size: 2em;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.3em; }
+
+#features {
+  padding: 5em 0 14em;
+  background-image: url("../images/slanted-phone.jpg");
+  background-color: #F7F7F5;
+  background-repeat: no-repeat;
+  background-position: bottom center; }
 
 #intro {
   text-align: center;

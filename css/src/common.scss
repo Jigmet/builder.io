@@ -4,6 +4,7 @@ body{
   color: $dark-font-color;
 }
 .btn-solid{
+  background-color: $primary-color;
   color: $light-font-color;
   border-radius: 2px;
   text-transform: uppercase;
