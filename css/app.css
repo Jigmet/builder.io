@@ -103,6 +103,18 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center; }
 
+#video-demo {
+  position: relative; }
+  #video-demo img {
+    width: 100%; }
+  #video-demo i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    font-size: 8vw;
+    transform: translate(-50%, -50%); }
+
 #take-look {
   background-color: #A18BCC;
   text-align: center;
